@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <header>
+
+      <h1>Workout Tracker</h1>
+      
+    </header>
+    <main>
+      <form>
+        <label for="exercise">Exercise:</label>
+        <input type="text" id="exercise" name="exercise">
+
+        <br>
+        <label for="sets">Sets:</label>
+        <input type="number" id="sets" name="sets" min="1">
+        <br>
+
+        <label for="reps">Reps:</label>
+        <input type="number" id="reps" name="reps" min="1">
+
+        <br><br>
+        <button type="button" onclick="addExercise()">Add Exercise</button>
+      </form>
+      <br>
+      <table id="exercise-table">
+        <thead>
+          <tr>
+
+            <th>Exercise</th>
+            <th>Sets</th>
+            <th>Reps</th>
+
+          </tr>
+        </thead>
+
+        <tbody id="table-body"></tbody>
+      </table>
+    </main>
+  </body>
+</html>
