@@ -1,2 +1,2 @@
-# workouttracker
-workout tracker
+# Workout Tracker
+Welcome to Isaiah's workout tracker
